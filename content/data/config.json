@@ -37,8 +37,7 @@
                 "type": "Button",
                 "url": "/",
                 "altText": "Sign up",
-                "style": "primary",
-                "label": "test"
+                "style": "primary"
             }
         ],
         "styles": {
