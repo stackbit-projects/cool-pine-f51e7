@@ -53,11 +53,7 @@ sections:
   - elementId: ''
     colors: colors-h
     subtitle: ''
-    actions:
-      - type: Button
-        label: Learn More
-        url: /
-        style: secondary
+    actions: []
     media:
       type: ImageBlock
       url: /images/hero-3.jpg
