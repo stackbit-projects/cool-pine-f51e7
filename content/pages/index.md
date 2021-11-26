@@ -55,10 +55,6 @@ sections:
     subtitle: ''
     actions:
       - type: Button
-        label: Sign Up
-        url: /
-        style: primary
-      - type: Button
         label: Learn More
         url: /
         style: secondary
