@@ -1,12 +1,11 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import HeroSection from './HeroSection';
 
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    HeroSection: dynamic(() => import('./path/to/component'))
+    HeroSection: dynamic(() => import('./HeroSection'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
