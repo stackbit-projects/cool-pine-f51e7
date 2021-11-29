@@ -76,7 +76,6 @@ function heroMedia(media) {
         throw new Error(`no component matching the hero section media type: ${mediaType}`);
     }
     return <Media {...media} />;
-    
 }
 
 function heroBackgroundImage(image) {
