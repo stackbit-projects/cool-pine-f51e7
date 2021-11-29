@@ -6,7 +6,7 @@ import HeroSection from './HeroSection';
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    HeroSection
+    HeroSection: dynamic(() => import('./path/to/component'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
