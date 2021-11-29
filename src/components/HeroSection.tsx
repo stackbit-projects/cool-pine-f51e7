@@ -88,6 +88,7 @@ function heroBackgroundImage(image) {
     return (
         <div
             className="bg-cover bg-center block absolute inset-0"
+            data-sb-field-path=".subtitle"
             style={{
                 backgroundImage: `url('${imageUrl}')`,
                 opacity: imageOpacity * 0.01
