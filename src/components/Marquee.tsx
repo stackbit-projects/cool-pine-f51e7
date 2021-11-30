@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 
-export default function Markquee(props) {
+export default function Marquee(props) {
     const { label } = props;
     const annotationPrefix = props['data-sb-field-path'] || '';
     const annotations = [
