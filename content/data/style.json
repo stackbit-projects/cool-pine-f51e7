@@ -3,7 +3,7 @@
     "fontHeadlines": "sans",
     "h1": {
         "size": "7xl",
-        "weight": "normal",
+        "weight": "bold",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
