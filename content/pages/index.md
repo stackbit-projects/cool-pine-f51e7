@@ -120,7 +120,7 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
-  - colors: colors-a
+  - colors: colors-d
     elementId: ''
     label: Hello from y2k!!!
     type: Marquee
