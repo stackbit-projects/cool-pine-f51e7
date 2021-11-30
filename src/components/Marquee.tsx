@@ -8,6 +8,7 @@ export default function Marquee(props) {
         `${annotationPrefix}`,
         `${annotationPrefix}.label`
     ];
+    const cssClasses = props.className || null;
 
     return (
         <marquee
