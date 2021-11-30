@@ -60,6 +60,10 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
+  - colors: colors-a
+    elementId: ''
+    label: Hello from y2k
+    type: Marquee
   - elementId: ''
     colors: colors-f
     title: Where did everyone go?
@@ -120,10 +124,6 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
-  - colors: colors-a
-    elementId: ''
-    label: Hello from y2k
-    type: Marquee
   - colors: colors-h
     elementId: ''
     images:
