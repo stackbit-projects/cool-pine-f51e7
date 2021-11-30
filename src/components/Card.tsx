@@ -15,7 +15,7 @@ export default function Card(props) {
             <h2 data-sb-field-path=".title">{title}</h2>
             {subtitle && <p data-sb-field-path=".subtitle">{subtitle}</p>}
             {actions.length && (
-              <div>
+              <div data-sb-field-path=".actions">
                 {actions.map((action, index) => <Action key={index} {...action} data-sb-field-path={`.${index}`} />)}
               </div>
             )}
