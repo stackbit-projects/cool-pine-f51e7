@@ -12,7 +12,7 @@ export default function Marquee(props) {
 
     return (
         <marquee
-            className={classNames('sb-component', cssClasses)}
+            className={classNames('sb-component', 'sb-component-section', 'sb-component-marquee', cssClasses)}
             data-sb-field-path={annotations.join(' ').trim()}
         >
             <h2>{label}</h2>
