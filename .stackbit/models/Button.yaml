@@ -9,6 +9,9 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
+    name: tip
+    label: Tip
+  - type: string
     name: label
     label: Label
     default: Learn more
