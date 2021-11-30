@@ -85,11 +85,10 @@ function heroBackgroundImage(image) {
     }
     const imageStyles = image.styles?.self || {};
     const imageOpacity = imageStyles.opacity || imageStyles.opacity === 0 ? imageStyles.opacity : 100;
-    // , .backgroundImage.url#@style
     return (
         <div
             className="bg-cover bg-center block absolute inset-0"
-            data-sb-field-path=".backgroundImage"
+            data-sb-field-path=".backgroundImage, .backgroundImage.url#@style"
             style={{
                 backgroundImage: `url('${imageUrl}')`,
                 opacity: imageOpacity * 0.01
