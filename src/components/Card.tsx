@@ -9,7 +9,7 @@ export default function Card(props) {
     const Action = getComponent('Action');
 
     return (
-        <marquee
+        <div
             className={classNames('sb-component', 'sb-component-section', 'sb-component-card', cssClasses)}
         >
             <h2 data-sb-field-path=".title">{title}</h2>
@@ -19,6 +19,6 @@ export default function Card(props) {
                 {actions.map((action, index) => <Action key={index} {...action} data-sb-field-path={`.${index}`} />)}
               </div>
             )}
-        </marquee>
+        </div>
     );
 }
