@@ -50,6 +50,7 @@ export default function Action(props) {
                 'sb-component-button-secondary': style === 'secondary'
             })}
             data-sb-field-path={annotations.join(' ').trim()}
+            title={props.tip}
         >
             {label && <span>{label}</span>}
             {showIcon && IconComponent && (
