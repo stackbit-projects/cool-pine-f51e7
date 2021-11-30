@@ -8,6 +8,7 @@ registerComponents({
     // Register all Stackbit components
     ...componentsMap,
     HeroSection: dynamic(() => import('./HeroSection.tsx')),
+    Marquee: dynamic(() => import('./Marquee.tsx')),
     Action
 
     // Override any static or dynamic component,
