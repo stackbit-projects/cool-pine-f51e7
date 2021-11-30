@@ -10,5 +10,4 @@ fields:
   - type: string
     name: label
     label: Label
-    default: Hello from y2k
-    
+    default: Hello from y2kk
