@@ -1,0 +1,35 @@
+type: object
+name: Card
+label: Card
+labelField: title
+extends:
+  - Section
+groups:
+  - sectionComponent
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: Card Title
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: Super sub title
+  - type: list
+    name: actions
+    label: Actions
+    items:
+      type: model
+      models:
+        - Button
+        - Link
+    default:
+      - type: Button
+        label: Get Started
+        url: '/'
+        style: primary
+        elementId: hero-main-button
+      - type: Button
+        label: Learn More
+        url: '/'
+        style: secondary
