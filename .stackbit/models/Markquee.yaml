@@ -1,6 +1,6 @@
 type: object
-name: Markquee
-label: Markquee
+name: Marquee
+label: Marquee
 labelField: label
 extends:
   - Section
