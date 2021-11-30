@@ -2,6 +2,10 @@
 title: Home
 layout: PageLayout
 sections:
+  - colors: colors-a
+    elementId: ''
+    label: Hello from y2k
+    type: Marquee
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
@@ -60,10 +64,6 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
-  - colors: colors-a
-    elementId: ''
-    label: Hello from y2k
-    type: Marquee
   - elementId: ''
     colors: colors-f
     title: Where did everyone go?
