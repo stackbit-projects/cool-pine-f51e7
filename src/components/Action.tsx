@@ -51,7 +51,7 @@ export default function Action(props) {
             })}
             data-sb-field-path={annotations.join(' ').trim()}
         >
-            {label && <span>{label}</span>} test
+            {label && <span>{label}</span>}
             {showIcon && IconComponent && (
                 <IconComponent
                     className={classNames('fill-current h-5 w-5', {
