@@ -1,0 +1,9 @@
+type: object
+name: Markquee
+label: Markquee
+labelField: label
+fields:
+  - type: string
+    name: label
+    label: Label
+    default: Hello from y2k
