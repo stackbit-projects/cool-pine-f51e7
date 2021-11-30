@@ -9,3 +9,7 @@
         }
     }
 }
+
+.sb-component-maquee {
+    @apply text-primary;
+}
