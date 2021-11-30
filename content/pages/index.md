@@ -16,6 +16,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
+        tip: Test
     media:
       type: ImageBlock
       url: /images/carla.jpg
