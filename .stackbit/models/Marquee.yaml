@@ -1,0 +1,13 @@
+type: object
+name: Marquee
+label: Marquee
+labelField: label
+extends:
+  - Section
+groups:
+  - sectionComponent
+fields:
+  - type: string
+    name: label
+    label: Label
+    default: Hello from y2k
