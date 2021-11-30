@@ -64,6 +64,21 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
+  - colors: colors-a
+    elementId: ''
+    title: Card Title
+    subtitle: Super sub title
+    actions:
+      - type: Button
+        label: Get Started
+        url: /
+        style: primary
+        elementId: hero-main-button
+      - type: Button
+        label: Learn More
+        url: /
+        style: secondary
+    type: Card
   - elementId: ''
     colors: colors-f
     title: Where did everyone go?
