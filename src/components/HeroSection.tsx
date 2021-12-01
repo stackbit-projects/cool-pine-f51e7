@@ -133,7 +133,6 @@ function heroActions(props) {
         return null;
     }
     const styles = props.styles || {};
-    const Action = getComponent('Action');
     return (
         <div
             className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', styles.actions ? mapStyles(styles.actions) : null, {
@@ -141,9 +140,10 @@ function heroActions(props) {
             })}
             data-sb-field-path=".actions"
         >
-            {actions.map((action, index) => (
-                <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" data-sb-field-path={`.${index}`} />
-            ))}
+            {actions.map((action, index) => {
+                const Action = getComponent(action.type || 'Action');
+                return <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" data-sb-field-path={`.${index}`} />
+            })}
         </div>
     );
 }
