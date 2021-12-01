@@ -70,12 +70,7 @@ sections:
     elementId: ''
     title: Card Title
     subtitle: Super sub title
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-        elementId: hero-main-button
+    actions: []
     type: Card
   - elementId: ''
     colors: colors-f
