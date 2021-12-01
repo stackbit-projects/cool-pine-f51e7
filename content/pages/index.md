@@ -17,6 +17,8 @@ sections:
         style: primary
         elementId: hero-main-button
         tip: Test
+      - type: InlineAction
+        label: Test
     media:
       type: ImageBlock
       url: /images/carla.jpg
