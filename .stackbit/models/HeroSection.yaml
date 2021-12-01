@@ -39,6 +39,7 @@ fields:
       models:
         - Button
         - Link
+        - InlineAction
     default:
       - type: Button
         label: Get Started
