@@ -141,7 +141,7 @@ function heroActions(props) {
             data-sb-field-path=".actions"
         >
             {actions.map((action, index) => {
-                const Action = getComponent(action.type || 'Action');
+                const Action = action.type === 'InlineAction' ? getComponent(action.type) : getComponent('Action');
                 return <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" data-sb-field-path={`.${index}`} />
             })}
         </div>
