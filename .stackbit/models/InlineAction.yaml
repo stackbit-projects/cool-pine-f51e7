@@ -1,0 +1,9 @@
+type: object
+name: InlineAction
+label: InlineAction
+labelField: label
+fields:
+  - type: string
+    name: label
+    label: Label
+    default: Learn more
