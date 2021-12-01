@@ -3,6 +3,7 @@ import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
 
 import Action from './Action.tsx';
+import InlineAction from './InlineAction.tsx';
 
 registerComponents({
     // Register all Stackbit components
@@ -10,7 +11,8 @@ registerComponents({
     HeroSection: dynamic(() => import('./HeroSection.tsx')),
     Marquee: dynamic(() => import('./Marquee.tsx')),
     Card: dynamic(() => import('./Card.tsx')),
-    Action
+    Action,
+    InlineAction
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
