@@ -6,7 +6,7 @@ export default function Action(props) {
     const annotationPrefix = props['data-sb-field-path'] || '';
     const annotations = [
         `${annotationPrefix}`,
-        `.label`
+        `${annotationPrefix}.label`
     ];
     const cssClasses = props.className || null;
 
