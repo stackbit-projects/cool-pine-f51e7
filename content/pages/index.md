@@ -53,15 +53,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    backgroundImage:
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-      url: /images/hero-4.jpg
   - elementId: ''
     colors: colors-a
     title: The Section Title
