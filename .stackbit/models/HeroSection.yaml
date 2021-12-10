@@ -65,7 +65,6 @@ fields:
     name: backgroundImage
     group: styles
     label: Background image
-    readOnly: true
     models:
       - ImageBlock
   - type: style
