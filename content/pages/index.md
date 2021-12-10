@@ -61,6 +61,7 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
+      url: /images/hero-4.jpg
   - elementId: ''
     colors: colors-a
     title: The Section Title
