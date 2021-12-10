@@ -21,7 +21,7 @@ sections:
         label: Test
     media:
       type: ImageBlock
-      url: /images/careers.jpg
+      url: /images/4.png
       altText: Image alt text
       caption: Image caption
     styles:
