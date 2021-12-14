@@ -1,7 +1,7 @@
 type: object
 name: ImageBlock
 label: Image
-# labelField: altText
+labelField: caption
 fieldGroups:
   - name: settings
     label: Settings
