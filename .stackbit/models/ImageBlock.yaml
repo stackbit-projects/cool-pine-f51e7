@@ -1,7 +1,6 @@
 type: object
 name: ImageBlock
 label: Image
-labelField: caption
 fieldGroups:
   - name: settings
     label: Settings
